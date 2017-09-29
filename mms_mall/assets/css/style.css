@@ -1,0 +1,57 @@
+#billingmodal table th
+{
+	font-size: 10px;
+	white-space: nowrap;
+}
+
+/* RECEIPT */
+.checklist
+{ padding: 5px; }
+
+.checklist table
+{
+	width: 96%;
+}
+
+.checklist .companyname
+{
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.checklist .top
+{
+	font-weight: bold; 
+	font-size: 18px;
+}
+
+.checklist .companyheader
+{
+	font-size: 12px;
+	color: #000;
+	display: inline-block;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.checklist .tblprint4 th
+{
+	font-size: 12px;
+	color: #FFF;
+	padding: 2px;
+	border: solid 1px #000;
+	background-color: #000;
+}
+
+.checklist .tblprint4 td
+{
+	font-size: 14px;
+	padding: 5px;
+	padding-bottom: -3px;
+}
+
+.checklist .tblprint4{
+	border: solid 2px #000;
+}

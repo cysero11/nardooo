@@ -1,0 +1,112 @@
+tbody tr td { 
+	cursor: hand !important; cursor: pointer !important; 
+}
+
+.table th {
+	 background: #438EB9;
+	 color: #FFF;
+}
+
+.table thead tr td {
+	 background: #438EB9;
+	 color: #FFF;
+}
+
+.table tr:nth-child(even) {
+	background-color: #E0E0E0;
+}
+
+.modal-header {
+	background-color: #438EB9 !important;
+	color: #FFF;
+	font-weight: 800;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {
+    cursor: pointer;
+    display: inline;
+    color: white;
+    font-weight: 600;
+    padding: 4px 8px;
+    border: 1px solid #CCC;
+}
+
+.pagination li:first-child{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.pagination li:last-child{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+ul.pagination li:hover{
+    background-color: #FFFFFF;
+    color: #3c8dbc;
+}
+
+.pagination .active{
+    background-color: #FFFFFF;
+    color: #3c8dbc;
+}
+#syncbody .parangtr {
+	padding: 5px;
+	cursor: pointer;
+} 
+
+#syncbody .parangtr:hover {
+	background-color: #eee !important;
+} 
+
+#syncbody .parangtr:nth-child(even) {
+	background-color: #E0E0E0 !important;
+} 
+
+#tblWholeYearSales .parangtr:nth-child(even) {
+	background-color: #E0E0E0 !important;
+}
+
+.divstat span:hover{
+    border-bottom: 1px solid #438EB9;
+    color: #438EB9;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #eee;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #cccccc;
+    -webkit-box-shadow: inset 0 0 6px #cccccc;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #cccccc;
+}
+
+.myspinner
+{
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/images/spinner2.gif) center no-repeat, #eeeeee;
+  position: absolute;
+  /*margin-left: -15px;*/
+  opacity: 0.5;
+  z-index: 1000;
+}
